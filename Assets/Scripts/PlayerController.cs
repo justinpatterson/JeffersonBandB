@@ -24,10 +24,12 @@ public class PlayerController : MonoBehaviour
 
         transform.position = transform.position + (Vector3.right * horizontalMovement * Time.deltaTime * movementSpeed);
         //characterRoot.localEulerAngles = new Vector3(0, 45f * horizontalMovement, 0);
+        
         characterRoot.localEulerAngles = new Vector3(0, 
             horizontalMovement>0f?0:
             (horizontalMovement<0f?180f : characterRoot.localEulerAngles.y)
             , 0);
+        
     }
 
 
