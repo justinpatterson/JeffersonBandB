@@ -812,7 +812,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectSpawnBehavior
   spawnObjects:
-  - {fileID: 7280199607226917940, guid: 93ffe4372de7c5843a1201c562d1901c, type: 3}
+  - {fileID: 7280199607226917940, guid: 8cd64f64b7761a0489fc4ca89f78f1aa, type: 3}
   spawnTimer: 0
 --- !u!1001 &3707943967165759418
 PrefabInstance:
